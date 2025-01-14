@@ -1,6 +1,7 @@
 name: Releaser
 
 on:
+  workflow_dispatch:
   push:
     tags:
       - '*'
